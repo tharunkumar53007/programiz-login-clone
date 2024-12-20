@@ -1,0 +1,111 @@
+p{
+    margin: 0;
+}
+body{
+    padding: 53px 0px;
+    margin: 0;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+main{
+    width: 380px;
+    box-sizing: border-box;
+}
+.head-hr{
+    border: 0;                 /* Remove the default border */
+    border-top: 1px solid rgb(212, 212, 212); /* Add a thin colored top border */
+      
+}
+.login-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.login-title{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.other-platforms img{
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 15px;
+    -webkit-user-drag: none;
+}
+.other-platforms{
+    display: flex;
+    width: 100%;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 14px;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: background-color 0.15s;
+    box-sizing: border-box;
+    user-select: none;
+}
+.other-platforms:hover{
+    background-color: rgba(235, 251, 255, 0.719);
+}
+.or-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px ;
+}
+.or-hr{
+    flex-grow: 1;
+    height: 1px;
+    background-color: rgb(219, 219, 219);
+}
+.or-text{
+    font-family: Roboto;
+    margin: 0px 15px;
+    font-weight: bold;
+    color: gray;
+}
+.email-text{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.788);
+    margin-bottom: 8px;
+}
+.email-input-div{
+    display: flex;
+    flex-direction: column;
+}
+.email-input-box{
+    height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 4px;
+    padding: 0px 15px;
+    font-size: 16px;
+    transition: border 0.15s ease-in-out;
+    color: rgb(73, 73, 73);
+}
+.email-input-box:focus{
+    border: 1px solid rgb(0, 140, 255);
+    outline: none;
+}
+.email-input-box::placeholder{
+    font-family: Poppins;
+    font-size: 14px;
+}
+.continue-button{
+    height: 48px;
+    border: none;
+    background-color: rgb(98, 153, 255);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 4px;
+}
