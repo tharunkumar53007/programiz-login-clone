@@ -2,13 +2,24 @@ p{
     margin: 0;
 }
 body{
-    padding: 53px 0px;
+    padding-top: 14px;
+    padding-bottom: 100px;
     margin: 0;
     font-family: Poppins, Arial, Helvetica, sans-serif;
+    position: relative;
+}
+body::-webkit-scrollbar{
+    display:none;
+}
+header{
+    padding: 4px 24px;
 }
 main{
     width: 380px;
     box-sizing: border-box;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .head-hr{
     border: 0;                 /* Remove the default border */
@@ -25,7 +36,7 @@ main{
 .login-title{
     font-size: 30px;
     font-weight: 500;
-    margin: 20px 0px;
+    margin: 22px 0px;
 }
 .other-platforms img{
     width: 26px;
@@ -39,9 +50,9 @@ main{
     display: flex;
     width: 100%;
     border: 1px solid rgb(214, 214, 214);
-    padding: 14px;
+    padding: 15px;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     cursor: pointer;
     border-radius: 4px;
     font-size: 15px;
@@ -82,7 +93,7 @@ main{
 }
 .email-input-box{
     height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     border: 1px solid rgb(214, 214, 214);
     border-radius: 4px;
     padding: 0px 15px;
@@ -96,7 +107,7 @@ main{
 }
 .email-input-box::placeholder{
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 15px;
 }
 .continue-button{
     height: 48px;
@@ -109,3 +120,45 @@ main{
     cursor: pointer;
     border-radius: 4px;
 }
+/* footer{
+    background-color: #1c2130;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 20px 5px;
+}
+.footer-tags{
+    margin-right: 20px;
+}
+.footer-hold-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-hold-div a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    color: rgb(190, 190, 190);
+    font-weight: 500;
+}
+ .follow-us-div{
+    display: inline-block;
+} 
+.follow-us-div svg{
+    vertical-align: center;
+    color: rgb(190, 190, 190);
+    margin-right: 20px;
+}
+.copyright-text{
+    color: white;
+    font-size: 12px;
+    color: rgb(190, 190, 190);
+    font-weight: 500;
+}
+.copyright-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
