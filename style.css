@@ -15,7 +15,7 @@ header{
     padding: 4px 24px;
 }
 main{
-    width: 380px;
+    min-width: 380px;
     box-sizing: border-box;
     margin-bottom: 30px;
     padding-left: 20px;
@@ -119,6 +119,14 @@ main{
     font-family: Roboto, Arial, Helvetica, sans-serif;
     cursor: pointer;
     border-radius: 4px;
+}
+@media screen and (max-width:768px) {
+    .login-title{
+        font-size: 26px;
+    }
+    main{
+        min-width: 360px;
+    }
 }
 /* footer{
     background-color: #1c2130;
