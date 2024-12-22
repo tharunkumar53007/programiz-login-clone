@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "4487000000027001",
+      "name": "programiz-login-clone",
+      "domain": {
+        "id": "50024120347",
+        "name": "programiz-login-clone-60029916138.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60029916138",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
